@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="MgYJ2=#},I[~UMr[~06X" x="433" y="-278"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="A}^a?eN*cmKDf0gFV9,d"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="record_startRecording" id="M+T3W@B-W|XR{T`k[Qcq"><field name="mode">record.BlockingState.Blocking</field></block></next></block></statement></block><block type="device_button_event" id="dYG=w5pp#g!Ek+jL8q^r" x="839" y="-257"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="R|la5!^7!RDX0G.Lo^)4"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        . # # # .
+        `</field><next><block type="record_playAudio" id="3z7{+g9MJj=k,tHX,W-A"><field name="mode">record.BlockingState.Blocking</field><next><block type="device_show_leds" id="2`l-5F3[}S:6XK_saj~_"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="g]z3E`aEds+OM(2]_}`@" x="0" y="0"></block><block type="device_forever" id="Y4oNk[D}92%s9[*Zo}mW" x="205" y="0"></block></xml>
